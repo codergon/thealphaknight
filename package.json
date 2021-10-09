@@ -3,12 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-hook/mouse-position": "^4.1.1",
+    "@react-hook/window-size": "^3.0.7",
+    "@react-three/drei": "^7.13.1",
+    "@react-three/fiber": "^7.0.14",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "framer-motion": "^4.1.17",
     "react": "^17.0.2",
+    "react-colorful": "^5.5.0",
+    "react-device-detect": "^2.0.1",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "simple-parallax-js": "^5.6.2",
+    "three": "^0.133.1",
+    "valtio": "^1.2.4",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

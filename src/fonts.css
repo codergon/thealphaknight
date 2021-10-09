@@ -1,0 +1,25 @@
+@font-face {
+  font-family: branch;
+  src: url(./fonts/Branch/Branch.ttf) format("truetype");
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: satoshi;
+  src: url(./fonts/Satoshi_Complete/Variable/Satoshi-Variable.ttf)
+    format("truetype");
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: satoshi_italic;
+  src: url(./fonts/Satoshi_Complete/Variable/Satoshi-VariableItalic.ttf)
+    format("truetype");
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: italic;
+}
