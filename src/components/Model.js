@@ -170,7 +170,7 @@ const Modely = ({ refe }) => {
             </div>
             <div>
               <Picker />
-              {width <= 675 && (
+              {width <= 750 && (
                 <div className="view_exm_out">
                   <p>
                     <i className="uil uil-palette"></i> Click Model to change
@@ -181,7 +181,7 @@ const Modely = ({ refe }) => {
             </div>
           </div>
           <div>
-            {!snap.current && width > 675 && (
+            {!snap.current && width > 750 && (
               <div className="view_exm_out">
                 <p>
                   <i className="uil uil-palette"></i> Click Model to change

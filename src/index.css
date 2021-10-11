@@ -180,7 +180,7 @@ nav {
   margin-right: 4vw;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
   .Marquee__Wrapper {
     margin: 70px 0px 20px;
   }
@@ -775,7 +775,7 @@ canvas {
   margin-right: 10px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
   .techs .header .__Dot {
     width: 4px;
     height: 4px;
@@ -1055,9 +1055,8 @@ canvas {
   max-width: 90%;
   padding-bottom: 2px;
   font-family: satoshi;
-  /* position: relative; */
-  font-variation-settings: "wght" 700;
-  border-bottom: 2px solid #000;
+  font-variation-settings: "wght" 550;
+  border-bottom: 1.5px solid #000;
 }
 
 .prj_fixed,
@@ -1293,7 +1292,7 @@ canvas {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
   .picker {
     padding: 0px 0px 16vw;
   }
@@ -1331,7 +1330,7 @@ canvas {
 }
 
 /* About Responsive css */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
   /* ============== */
   .landing_header {
     width: 100%;
@@ -1387,7 +1386,7 @@ canvas {
     display: inline-block;
   }
   .circle_text p {
-    font-size: 3vw;
+    font-size: 14 px !important;
     padding: 7px 15px;
   }
   .circle_text path {
@@ -1409,7 +1408,7 @@ canvas {
     flex-direction: column;
   }
   .tech_list ul li {
-    font-size: 3.4vw;
+    font-size: 3.4vw !important;
   }
 
   .tech_list ul:last-child {
@@ -1518,7 +1517,7 @@ canvas {
   }
 
   .mobile_prj_inn {
-    width: 75%;
+    width: 40%;
     overflow: hidden;
   }
 
@@ -1649,3 +1648,51 @@ canvas {
 }
 
 /* ************************ */
+
+@media screen and (max-width: 1020px) {
+  .first_sect,
+  .it_brief,
+  .txt_for_exm,
+  .it_view {
+    font-size: 15px;
+  }
+  .it_inf_cv_vw i {
+    font-size: 19px;
+  }
+  .tech_list ul li {
+    font-size: 17px;
+  }
+
+  .techs .header {
+    font-size: 3vw;
+  }
+  .circle_text p {
+    font-size: 14px;
+  }
+
+  .contact_det {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .mobile_prj_inn {
+    width: 45% !important;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .mobile_prj_inn {
+    width: 55% !important;
+  }
+}
+@media screen and (max-width: 550px) {
+  .mobile_prj_inn {
+    width: 60% !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .mobile_prj_inn {
+    width: 75% !important;
+  }
+}

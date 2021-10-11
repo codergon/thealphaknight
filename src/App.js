@@ -220,7 +220,7 @@ const Homepage = () => {
   }, []);
 
   useEffect(() => {
-    if (width < 700) {
+    if (width < 850) {
       setResp(true);
     } else {
       setResp(false);
@@ -413,7 +413,7 @@ const Homepage = () => {
       }
     }
 
-    if (!!resp && width >= 700) {
+    if (!!resp && width >= 850) {
       const elements = document.querySelectorAll(".prj_im");
       elements.forEach((el, index) => new Gl().init(el, index));
     }
@@ -605,7 +605,7 @@ const Homepage = () => {
                   <p className="it_view">Explore project</p>
                 </div>
               </div>
-              {width > 700 ? (
+              {width > 850 ? (
                 <div className="prj_fixed">
                   <div className="prj_img_cnt">
                     <div className="prj_im"></div>
@@ -644,7 +644,7 @@ const Homepage = () => {
                   </a>
                 </div>
               </div>
-              {width > 700 ? (
+              {width > 850 ? (
                 <div className="prj_fixed2">
                   <div className="prj_img_cnt">
                     <div className="prj_im"></div>
@@ -675,7 +675,7 @@ const Homepage = () => {
                   <p className="it_view">Explore project</p>
                 </div>
               </div>
-              {width > 700 ? (
+              {width > 850 ? (
                 <div className="prj_fixed3">
                   <div className="prj_img_cnt">
                     <div className="prj_im"></div>
@@ -704,7 +704,7 @@ const Homepage = () => {
               dragElastic={0.3}
               dragConstraints={{
                 left:
-                  width > 700
+                  width > 850
                     ? -height * 2.8 + width * 0.64
                     : -width * 3.65 + width * 0.7,
                 right: 0,
