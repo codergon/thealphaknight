@@ -760,9 +760,9 @@ canvas {
 
 .techs .header {
   margin-bottom: 20px;
-  font-size: 3vw;
+  font-size: 2.8vw;
   font-family: satoshi;
-  font-variation-settings: "wght" 450;
+  font-variation-settings: "wght" 530;
 }
 .techs .header .__Dot {
   display: inline-block;
@@ -1370,7 +1370,6 @@ canvas {
 
   .first_sect {
     width: 90%;
-    font-size: 3.4vw;
     padding-right: 0%;
   }
 
@@ -1396,7 +1395,6 @@ canvas {
 
   .techs .header {
     margin-bottom: 15px;
-    font-size: 4.1vw;
   }
 
   .tech_list {
@@ -1406,9 +1404,6 @@ canvas {
   .tech_list ul {
     display: flex;
     flex-direction: column;
-  }
-  .tech_list ul li {
-    font-size: 3.4vw !important;
   }
 
   .tech_list ul:last-child {
@@ -1563,7 +1558,6 @@ canvas {
   }
 
   .it_brief {
-    font-size: 3.4vw;
     margin-top: 2vw;
     max-width: 90%;
     text-indent: 4vw;
@@ -1573,9 +1567,6 @@ canvas {
   .it_inf_cv_vw {
     display: flex;
     flex-direction: row;
-  }
-  .it_view {
-    font-size: 3.2vw;
   }
 
   /* ********************** */
@@ -1664,7 +1655,7 @@ canvas {
   }
 
   .techs .header {
-    font-size: 3vw;
+    font-size: 2.8vw;
   }
   .circle_text p {
     font-size: 14px;
@@ -1678,6 +1669,30 @@ canvas {
 @media screen and (max-width: 750px) {
   .mobile_prj_inn {
     width: 45% !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .first_sect {
+    font-size: 3.4vw !important;
+  }
+  .circle_text p {
+    font-size: 3.2vw;
+  }
+  .it_brief {
+    font-size: 3.4vw !important;
+  }
+  .it_view {
+    font-size: 3.2vw !important;
+  }
+  .tech_list ul li {
+    font-size: 3vw !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .techs .header {
+    font-size: 3.5vw !important;
   }
 }
 
