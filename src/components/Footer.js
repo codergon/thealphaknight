@@ -16,12 +16,12 @@ const Footer = ({ refe }) => {
               href="mailto:atakerewilliams@gmail.com?subject=Let%27s%20make%20something%20cool"
               target="_blank"
               rel="noopener noreferrer"
-              class="contact_header"
+              className="contact_header"
             >
               yourproject@williams.com
             </a>
             <div className="contact_content">
-              <ul class="socials">
+              <ul className="socials">
                 <li>
                   <a
                     href="https://www.instagram.com/atakere_williams"
@@ -60,7 +60,7 @@ const Footer = ({ refe }) => {
                 </li>
               </ul>
               <div style={{ maxWidth: "40%" }}>
-                <p class="contact_det">
+                <p className="contact_det">
                   Created for, designed by, and developed by Atakere Williams in
                   2021. Wow, you scrolled this far... you might as well just
                   click that email up there.
@@ -70,7 +70,7 @@ const Footer = ({ refe }) => {
           </div>
         </div>
 
-        <div class="foot_note">
+        <div className="foot_note">
           <p>2021 || Williams</p>
           <p>6.3345°N, 3.6745°E</p>
         </div>

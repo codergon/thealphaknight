@@ -180,7 +180,7 @@ nav {
   margin-right: 4vw;
 }
 
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 700px) {
   .Marquee__Wrapper {
     margin: 70px 0px 20px;
   }
@@ -775,7 +775,7 @@ canvas {
   margin-right: 10px;
 }
 
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 700px) {
   .techs .header .__Dot {
     width: 4px;
     height: 4px;
@@ -1293,7 +1293,7 @@ canvas {
   }
 }
 
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 700px) {
   .picker {
     padding: 0px 0px 16vw;
   }
@@ -1331,7 +1331,7 @@ canvas {
 }
 
 /* About Responsive css */
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 700px) {
   /* ============== */
   .landing_header {
     width: 100%;

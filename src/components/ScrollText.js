@@ -1,49 +1,49 @@
 const ScrollText = ({ word }) => {
   return (
-    <div class="Marquee__Wrapper">
-      <div class="Marquee__TextHolder">
-        <div class="Marquee__TextGroup">
-          <span class="Marquee__Text">
-            <span class="Marquee__Word">{word}.</span>
-            <span class="Marquee__Dot"></span>
+    <div className="Marquee__Wrapper">
+      <div className="Marquee__TextHolder">
+        <div className="Marquee__TextGroup">
+          <span className="Marquee__Text">
+            <span className="Marquee__Word">{word}.</span>
+            <span className="Marquee__Dot"></span>
           </span>
-          <span class="Marquee__Text">
-            <span class="Marquee__Word">{word}!</span>
-            <span class="Marquee__Dot"></span>
+          <span className="Marquee__Text">
+            <span className="Marquee__Word">{word}!</span>
+            <span className="Marquee__Dot"></span>
           </span>
-          <span class="Marquee__Text">
-            <span class="Marquee__Word">{word},</span>
-            <span class="Marquee__Dot"></span>
+          <span className="Marquee__Text">
+            <span className="Marquee__Word">{word},</span>
+            <span className="Marquee__Dot"></span>
           </span>
-          <span class="Marquee__Text">
-            <span class="Marquee__Word">{word}?</span>
-            <span class="Marquee__Dot"></span>
+          <span className="Marquee__Text">
+            <span className="Marquee__Word">{word}?</span>
+            <span className="Marquee__Dot"></span>
           </span>
-          <span class="Marquee__Text">
-            <span class="Marquee__Word">"{word}"</span>
-            <span class="Marquee__Dot"></span>
+          <span className="Marquee__Text">
+            <span className="Marquee__Word">"{word}"</span>
+            <span className="Marquee__Dot"></span>
           </span>
         </div>
-        <div class="Marquee__TextGroup">
-          <span class="Marquee__Text">
-            <span class="Marquee__Word">{word}.</span>
-            <span class="Marquee__Dot"></span>
+        <div className="Marquee__TextGroup">
+          <span className="Marquee__Text">
+            <span className="Marquee__Word">{word}.</span>
+            <span className="Marquee__Dot"></span>
           </span>
-          <span class="Marquee__Text">
-            <span class="Marquee__Word">{word}!</span>
-            <span class="Marquee__Dot"></span>
+          <span className="Marquee__Text">
+            <span className="Marquee__Word">{word}!</span>
+            <span className="Marquee__Dot"></span>
           </span>
-          <span class="Marquee__Text">
-            <span class="Marquee__Word">{word},</span>
-            <span class="Marquee__Dot"></span>
+          <span className="Marquee__Text">
+            <span className="Marquee__Word">{word},</span>
+            <span className="Marquee__Dot"></span>
           </span>
-          <span class="Marquee__Text">
-            <span class="Marquee__Word">{word}?</span>
-            <span class="Marquee__Dot"></span>
+          <span className="Marquee__Text">
+            <span className="Marquee__Word">{word}?</span>
+            <span className="Marquee__Dot"></span>
           </span>
-          <span class="Marquee__Text">
-            <span class="Marquee__Word">"{word}"</span>
-            <span class="Marquee__Dot"></span>
+          <span className="Marquee__Text">
+            <span className="Marquee__Word">"{word}"</span>
+            <span className="Marquee__Dot"></span>
           </span>
         </div>
       </div>

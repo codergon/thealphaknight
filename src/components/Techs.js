@@ -3,11 +3,11 @@ import Resume from "../Atakere_Williams.pdf";
 const Techs = () => {
   return (
     <div className="second_sect">
-      <div class="techs">
-        <div class="header">
-          <span class="__Dot"></span>Technologies you'd see me use
+      <div className="techs">
+        <div className="header">
+          <span className="__Dot"></span>Technologies you'd see me use
         </div>
-        <div class="tech_list">
+        <div className="tech_list">
           <ul>
             <li>Html5</li>
             <li>Css3</li>
@@ -41,10 +41,10 @@ const Techs = () => {
 
       {/* **** */}
 
-      <div class="view_resume">
+      <div className="view_resume">
         <a target="_blank" rel="noopener noreferrer" href={Resume}>
-          <button class="button button--surtur">
-            <svg class="textcircle" viewBox="0 0 500 500">
+          <button className="button button--surtur">
+            <svg className="textcircle" viewBox="0 0 500 500">
               <defs>
                 <path
                   id="textcircle"
@@ -63,31 +63,31 @@ const Techs = () => {
             </svg>
             <svg
               aria-hidden="true"
-              class="eye"
+              className="eye"
               width="70"
               height="70"
               viewBox="0 0 70 70"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                class="eye__outer"
+                className="eye__outer"
                 d="M10.5 35.308c5.227-7.98 14.248-13.252 24.5-13.252s19.273 5.271 24.5 13.252c-5.227 7.98-14.248 13.253-24.5 13.253s-19.273-5.272-24.5-13.253z"
               />
               <path
-                class="eye__lashes-up"
+                className="eye__lashes-up"
                 d="M35 8.802v8.836M49.537 11.383l-3.31 8.192M20.522 11.684l3.31 8.192"
               />
               <path
-                class="eye__lashes-down"
+                className="eye__lashes-down"
                 d="M35 61.818v-8.836 8.836zM49.537 59.237l-3.31-8.193 3.31 8.193zM20.522 58.936l3.31-8.193-3.31 8.193z"
               />
-              <circle class="eye__iris" cx="35" cy="35.31" r="5.221" />
-              <circle class="eye__inner" cx="35" cy="35.31" r="10.041" />
+              <circle className="eye__iris" cx="35" cy="35.31" r="5.221" />
+              <circle className="eye__inner" cx="35" cy="35.31" r="10.041" />
             </svg>
           </button>
         </a>
 
-        <div class="inspirations">
+        <div className="inspirations">
           <p>Don't be boring 🤪</p>
           <p>choose one</p>
         </div>
@@ -98,8 +98,8 @@ const Techs = () => {
             threeSect.scrollIntoView({ behavior: "smooth" });
           }}
         >
-          <button class="button button--surtur">
-            <svg class="textcircle" viewBox="0 0 500 500">
+          <button className="button button--surtur">
+            <svg className="textcircle" viewBox="0 0 500 500">
               <defs>
                 <path
                   id="textcircle"
@@ -118,26 +118,26 @@ const Techs = () => {
             </svg>
             <svg
               aria-hidden="true"
-              class="eye"
+              className="eye"
               width="70"
               height="70"
               viewBox="0 0 70 70"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                class="eye__outer"
+                className="eye__outer"
                 d="M10.5 35.308c5.227-7.98 14.248-13.252 24.5-13.252s19.273 5.271 24.5 13.252c-5.227 7.98-14.248 13.253-24.5 13.253s-19.273-5.272-24.5-13.253z"
               />
               <path
-                class="eye__lashes-up"
+                className="eye__lashes-up"
                 d="M35 8.802v8.836M49.537 11.383l-3.31 8.192M20.522 11.684l3.31 8.192"
               />
               <path
-                class="eye__lashes-down"
+                className="eye__lashes-down"
                 d="M35 61.818v-8.836 8.836zM49.537 59.237l-3.31-8.193 3.31 8.193zM20.522 58.936l3.31-8.193-3.31 8.193z"
               />
-              <circle class="eye__iris" cx="35" cy="35.31" r="5.221" />
-              <circle class="eye__inner" cx="35" cy="35.31" r="10.041" />
+              <circle className="eye__iris" cx="35" cy="35.31" r="5.221" />
+              <circle className="eye__inner" cx="35" cy="35.31" r="10.041" />
             </svg>
           </button>
         </div>

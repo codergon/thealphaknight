@@ -36,6 +36,7 @@ function Model() {
     colory.style.cursor = `url('data:image/svg+xml;base64,${btoa(
       hovered ? cursor : auto
     )}'), auto`;
+    // eslint-disable-next-line
   }, [hovered]);
 
   return (
@@ -47,19 +48,19 @@ function Model() {
       onPointerMissed={() => (state.current = null)}
       onPointerOver={(e) => {
         e.stopPropagation();
-        if (e.object.material.name == "Bottle") {
+        if (e.object.material.name === "Bottle") {
           set("body");
         }
-        if (e.object.material.name == "Material.002") {
+        if (e.object.material.name === "Material.002") {
           set("cap");
         }
       }}
       onPointerDown={(e) => {
         e.stopPropagation();
-        if (e.object.material.name == "Bottle") {
+        if (e.object.material.name === "Bottle") {
           return (state.current = "body");
         }
-        if (e.object.material.name == "Material.002") {
+        if (e.object.material.name === "Material.002") {
           return (state.current = "cap");
         }
         return (state.current = "body");
@@ -87,7 +88,6 @@ function Model() {
         geometry={nodes.Lid_of_Bottle.geometry}
         material={materials["Material.002"]}
         position={[0, -0.055, 0]}
-        material-color="#2b2020"
         scale={[1, 6.6, 1]}
         material-color={snap.items.cap}
       />
@@ -101,7 +101,7 @@ function Picker() {
     <div style={{ display: snap.current ? "flex" : "none" }} className="picker">
       <div className="color_name">
         <p>
-          {!!snap.current && snap.current == "cap"
+          {!!snap.current && snap.current === "cap"
             ? "Lid of Bottle"
             : "Bottle  Container"}
         </p>
@@ -117,7 +117,7 @@ function Picker() {
 
 const Modely = ({ refe }) => {
   const snap = useSnapshot(state);
-  const [width, height] = useWindowSize();
+  const [width] = useWindowSize();
   return (
     <div className="t3_cont" id="t3_cont" ref={refe}>
       <div className="t3_conty">
@@ -173,7 +173,8 @@ const Modely = ({ refe }) => {
               {width <= 675 && (
                 <div className="view_exm_out">
                   <p>
-                    <i class="uil uil-palette"></i> Click Model to change color
+                    <i className="uil uil-palette"></i> Click Model to change
+                    color
                   </p>
                 </div>
               )}
@@ -183,7 +184,8 @@ const Modely = ({ refe }) => {
             {!snap.current && width > 675 && (
               <div className="view_exm_out">
                 <p>
-                  <i class="uil uil-palette"></i> Click Model to change color
+                  <i className="uil uil-palette"></i> Click Model to change
+                  color
                 </p>
               </div>
             )}
