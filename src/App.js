@@ -591,18 +591,39 @@ const Homepage = () => {
             <div className="prj_item">
               <div className="cov_prj_det">
                 <div className="it_inf_cv">
-                  <p className="it_det_hd">Ordinace Redesign</p>
+                  <p className="it_det_hd">CurrenShip</p>
                 </div>
                 <div className="it_inf_cv">
                   <p className="it_brief">
-                    This is a redesign of the fashion company's official
-                    website. The project was inspired by the awesome UX or UI I
-                    experienced on the site.
+                    This was inspired by Vladmir Gruev's post on instagram (
+                    <a
+                      href="https://www.instagram.com/p/CVdY7AhgQiO/"
+                      target="_blank"
+                      className="linky"
+                    >
+                      here
+                    </a>
+                    ) and combined with Adam Roller's Real Estate design (
+                    <a
+                      href="https://dribbble.com/shots/11560877-Real-Estate-Landing-Page"
+                      target="_blank"
+                      className="linky"
+                    >
+                      here
+                    </a>
+                    ). I also added few touches of 3d magic😉; Check it out
                   </p>
                 </div>
                 <div className="it_inf_cv it_inf_cv_vw">
                   <i className="uil uil-mars"></i>
-                  <p className="it_view">Explore project</p>
+                  <a
+                    href="https://currenship.netlify.com"
+                    target="_blank"
+                    className="it_view"
+                    rel="noreferrer"
+                  >
+                    Explore project
+                  </a>
                 </div>
               </div>
               {width > 850 ? (

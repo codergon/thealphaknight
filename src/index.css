@@ -1050,6 +1050,10 @@ canvas {
   padding-top: 0.5vw;
 }
 
+.linky {
+  color: #d39168 !important;
+}
+
 .it_view {
   font-size: 1.1vw;
   max-width: 90%;
