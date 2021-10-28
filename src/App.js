@@ -617,7 +617,7 @@ const Homepage = () => {
                 <div className="it_inf_cv it_inf_cv_vw">
                   <i className="uil uil-mars"></i>
                   <a
-                    href="https://currenship.netlify.com"
+                    href="https://currenship.netlify.app"
                     target="_blank"
                     className="it_view"
                     rel="noreferrer"
