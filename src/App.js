@@ -553,11 +553,11 @@ const Homepage = () => {
       >
         <div className="cont_me">
           <div className="first_sect">
-            I'm a frontend developer and I have been creating interactive web
-            projects since 2018. During this period I have worked on several
-            projects while learning multiple web languages I now speak fluently
-            and confidently backed by the experiences I have garnered over the
-            years. <br />
+            I'm a frontend developer and I've focused on creating immersive
+            projects on the web for more than 3 years. During this period I have
+            worked on several projects while learning multiple web languages I
+            now speak fluently and confidently backed by the experiences I have
+            garnered over the years. <br />
             <br /> <br /> I acheive all these using different web technologies
             some of which are showcased here. I also incorporate 3d designs into
             projects to give the optimal feel and be of the prominent dev body -
